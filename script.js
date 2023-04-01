@@ -1,4 +1,6 @@
-window.promises = [new Promise((resolve) => setTimeout(() => resolve(Math.random() * 5 + 1), Math.random() * 5 + 1)),
+window.promises = [];
+let promises = [
+  new Promise((resolve) => setTimeout(() => resolve(Math.random() * 5 + 1), Math.random() * 5 + 1)),
   new Promise((resolve) => setTimeout(() => resolve(Math.random() * 5 + 1), Math.random() * 5 + 1)),
   new Promise((resolve) => setTimeout(() => resolve(Math.random() * 5 + 1), Math.random() * 5 + 1)),
   new Promise((resolve) => setTimeout(() => resolve(Math.random() * 5 + 1), Math.random() * 5 + 1)),
